@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #e3f2fd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 90%;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #007bff;
+        }
+        h1 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: #333;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .link {
+            display: block;
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 12px;
+            border-radius: 8px;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+        .link:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        </*<img src="profile.jpg" alt="Foto de Perfil" class="profile-pic">
+        <h1>Links</h1>
+        <div class="links">
+            <a href="https://www.canva.com/design/DAGhc8GtUaw/NOyNp_3S0dfNhnhkKhLO7Q/view?utm_content=DAGhc8GtUaw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6879abd0a8" class="link">Presentation</a>
+        </div>
+    </div>
+</body>
+</html>
